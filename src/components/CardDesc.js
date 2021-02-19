@@ -3,7 +3,7 @@ import React from 'react'
 const CardDesc = (props) => {
 
 
-  if (props.blue == '0'){
+  if (props.blue === '0'){
     return (
               <div className="card bg-blue">
                 <div className="card-body bg-blue">
