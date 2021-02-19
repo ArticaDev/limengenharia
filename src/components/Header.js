@@ -11,18 +11,18 @@ const Header = () => {
   </ol>
   <div className="carousel-inner" role="listbox">
     <div className="carousel-item active" style={{backgroundImage: 'url("./assets/img/image1.png")'}}>
-      <div className="carousel-caption d-none d-md-block">
+      <div className="carousel-caption d-block">
         <a className="js-scroll-trigger" href="#services">
-        <h2 className="display-4">Acompanhamento de Obras e Vistorias</h2></a>
+        <h2 className="display-4">Vistorias de imóveis</h2></a>
         </div>
     </div>
     <div className="carousel-item" style={{backgroundImage: 'url("./assets/img/image2.png")'}}>
-      <div className="carousel-caption d-none d-md-block">
+      <div className="carousel-caption d-block">
         <a className="js-scroll-trigger" href="#services"><h2 className="display-4">Análises de Viabilidade</h2></a>
       </div>
     </div>
     <div className="carousel-item" style={{backgroundImage: 'url("./assets/img/image3.png")'}}>
-      <div className="carousel-caption d-none d-md-block">
+      <div className="carousel-caption d-block">
         <a className="js-scroll-trigger" href="#services"><h2 className="display-4">Projetos e avaliações de Imóveis</h2></a>
       </div>
     </div>
