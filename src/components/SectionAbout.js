@@ -15,7 +15,7 @@ const SectionAbout = (props) => {
           <div className="row" style={{marginBottom: "50px"}}>
           <div
             className="col d-flex justify-content-center"
-            style={{marginTop: "20px"}}
+            style={{marginTop: "50px"}}
           >
             <img
               alt="profile1"
