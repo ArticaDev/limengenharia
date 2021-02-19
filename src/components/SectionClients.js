@@ -33,6 +33,7 @@ const SectionClients = (props) => {
             style={{marginBottom: '30px'}}
           >
             <img
+              alt="caixa-logo"
               src="https://logodownload.org/wp-content/uploads/2014/02/caixa-logo-4.png"
               style={{width: "200px"}}
             />
@@ -41,6 +42,7 @@ const SectionClients = (props) => {
             className="col d-flex justify-content-center align-items-center"
           >
             <img
+              alt="banco-do-brasil-logo"
               src="https://logodownload.org/wp-content/uploads/2014/05/banco-do-brasil-logo-1.png"
               style={{width: "250px"}}
             />
