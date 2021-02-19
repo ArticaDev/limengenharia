@@ -18,6 +18,7 @@ const SectionAbout = (props) => {
             style={{marginTop: "20px"}}
           >
             <img
+              alt="profile1"
               className="rounded-circle user-le"
               src="https://media-exp1.licdn.com/dms/image/C4D03AQFvDR885EUf7w/profile-displayphoto-shrink_800_800/0/1612396405606?e=1618444800&amp;v=beta&amp;t=qp-b5KRIBX13NU_zHpbWKXQ7z7MV4Osx4BEYarWjvOo"
             />
@@ -29,6 +30,7 @@ const SectionAbout = (props) => {
             style={{marginTop: "20px"}}
           >
             <img
+              alt="profile2"
               className="rounded-circle user-ma"
               src="https://media-exp1.licdn.com/dms/image/C5603AQFk0AJumsOK_A/profile-displayphoto-shrink_800_800/0/1612443732595?e=1618444800&amp;v=beta&amp;t=Ehm-ispaFDGT1zLniBKKrGQMNfH1btyQZdiLzyjG_IM"
             />
