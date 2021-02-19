@@ -1,0 +1,163 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  font-family: "Oswald" !important;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: rgb(207, 100, 40) !important;
+}
+
+.text-secondary {
+  color: #ce6428 !important;
+}
+
+hr.star-dark:after {
+  color: #ce6428 !important;
+  border-color: #ce6428 !important;
+  background-color: transparent;
+}
+
+#services {
+  background-color: #0c1e36;
+}
+
+hr.star-dark {
+  border-color: #ce6428 !important;
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #2c3e50;
+  color: #ce6428;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #934317;
+  border-color: #934317;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: #934317;
+  border-color: #934317;
+}
+
+.bg-primary,
+body {
+  background-color: #0c1e36 !important;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #ce6428;
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: white !important;
+}
+
+a:hover {
+  color: #ce6428;
+  text-decoration: underline;
+}
+
+a,
+strong {
+  color: #ce6428;
+}
+
+.btn-primary {
+  background-color: #ce6428 !important;
+  border-color: #ea702c;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.stealth {
+  opacity: 0.3;
+  transition: 1s;
+}
+
+.orange {
+  color: #ce6428;
+}
+
+.hidden-icon-le,
+.hidden-icon-ma {
+  display: none;
+  font-size: 40px !important;
+  color: white;
+  position: absolute;
+  top: 40%;
+  right: 47%;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.hidden-icon-le:hover,
+.hidden-icon-ma:hover {
+  color: #ce6428;
+  transition: 1s;
+}
+
+.bg-blue {
+  background: #0b1e35 !important;
+}
+
+.bg-dark-blue {
+  background: #081323 !important;
+}
+
+.card-group {
+  margin-top: 5vh;
+  background: transparent;
+}
+
+.card {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.card-icon {
+  font-size: 50px;
+  color: #ffffff;
+  margin-top: 20px;
+  height: 75px;
+}
+
+.card-title {
+  margin-top: 0px;
+  color: #ce6428;
+  margin-bottom: 40px;
+  min-height: 56px;
+}
+
+.user-ma,
+.user-le {
+  width: 200px;
+  height: 200px;
+}
