@@ -1,17 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import Alert from './Alert';
 
 
 const SectionContact = (props) => {
 
+  const [emailResult, setEmailResult] = useState("default");
+
   function sendEmail(e) {
     e.preventDefault();
-    emailjs.sendForm('service_971noxh', 
-      'template_2zzw4py', e.target, 
+    emailjs.sendForm('service_971noxh',
+      'template_2zzw4py', e.target,
       'user_dBh2cKXG6hYtcY3FFqa1L')
-      .then((result) => {
-      }, (error) => {
-        console.log(error.text);
+      .then(() => {
+        setEmailResult("success");
+      }, () => {
+        setEmailResult("failure");
       });
   }
 
@@ -56,12 +60,17 @@ const SectionContact = (props) => {
                   </button>
                 </div>
               </form>
+              {emailResult !== "default" &&
+
+                <Alert type={emailResult === "success" ? 'success' : 'danger'}
+                  content={emailResult === "success" ? 'Email enviado com sucesso !'
+                    : `Desculpe, houve um problema. Tente novamente`}
+                />
+              }
             </div>
           </div>
-
         </div>
       </div>
-
 
     </section>
 
