@@ -32,7 +32,7 @@ const Footer = () => {
               <h4 className="text-uppercase mb-4">telefone</h4>
               <p className="lead mb-0 text-white text-animated">
                 <span>
-                  <a href="callto:1940404534">
+                  <a href="tel:1940404534">
                   <br />Telefone: (19) 4040-4534<br />
                   </a>
                   </span>

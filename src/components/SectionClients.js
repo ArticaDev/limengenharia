@@ -25,7 +25,7 @@ const SectionClients = (props) => {
           
 
                 <h3 className="text-center" style={{color: '#ce6428', marginTop: '35px', marginBottom: '30px'}}>
-          Nós temos orgulho em ter trabalhado com:
+          Nós temos orgulho de ter como cliente:
         </h3>
         <div className="row" style={{marginTop: '10px'}}>
           <div

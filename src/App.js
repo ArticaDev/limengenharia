@@ -11,7 +11,7 @@ import FooterArtica from './components/FooterArtica'
 
 function App() {
   return (
-    <body id="page-top">
+    <div id="page-top">
       <Navbar/>
       <Header/>
       <SectionServices id="services" class="portfolio" titulo="nossos serviços"/>
@@ -20,7 +20,7 @@ function App() {
       <SectionContact id="contact"class="bg-dark-blue" titulo="contato"/>
       <Footer/>
       <FooterArtica/>
-    </body>
+    </div>
 
   );
 }
