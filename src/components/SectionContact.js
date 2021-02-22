@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import Alert from './Alert';
+import 'react-phone-number-input/style.css'
+import Input, { isValidPhoneNumber } from 'react-phone-number-input/input'
 
 
 const SectionContact = (props) => {
@@ -19,6 +21,7 @@ const SectionContact = (props) => {
       });
   }
 
+  const [value, setValue] = useState()
 
   return (
     <section id={props.id} className={props.class}>
@@ -33,20 +36,35 @@ const SectionContact = (props) => {
         <div className="row" style={{ marginTop: '5%' }}>
           <div className="col">
             <div className="col-lg-8 mx-auto">
-              <form id="contactForm" name="sentMessage" noValidate="novalidate" onSubmit={sendEmail}>
+              <form id="contactForm" name="sentMessage" onSubmit={sendEmail}>
                 <div className="control-group">
                   <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                    <label>Nome</label><input name="name" className="form-control" type="text" id="name" required placeholder="Nome" /><small className="form-text text-danger help-block" />
+                    <label>Nome</label>
+                    <input name="name" className="form-control" type="text" id="name" required placeholder="Nome" />
+                    <small className="form-text text-danger help-block" />
                   </div>
                 </div>
                 <div className="control-group">
                   <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                    <label>Email</label><input name="email" className="form-control" type="email" id="email" required placeholder="Endereço de Email" /><small className="form-text text-danger help-block" />
+                    <label>Email</label>
+                    <input name="email" className="form-control" type="email" id="email" required placeholder="Endereço de Email" />
+                    <small className="form-text text-danger help-block" />
                   </div>
                 </div>
                 <div className="control-group">
                   <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                    <label>Telefone</label><input name="phone" className="form-control" type="tel" id="phone" required placeholder="Telefone com DDD" /><small className="form-text text-danger help-block" />
+                    <label>Telefone</label>
+                    <Input
+                      name="phone"
+                      type="tel"
+                      id="phone"
+                      className="form-control"
+                      country="BR"
+                      placeholder="Telefone com DDD"
+                      value={value}
+                      onChange={setValue}
+                      error={value ? (isValidPhoneNumber(value) ? undefined : 'Número de telefone inválido') : 'Digite um número de telefone'}/>
+                    <small className="form-text text-danger help-block" />
                   </div>
                 </div>
                 <div className="control-group">

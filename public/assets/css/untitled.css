@@ -161,3 +161,7 @@ section {
   width: 200px;
   height: 200px;
 }
+
+.portfolio {
+  margin-bottom: 0px !important;
+}
