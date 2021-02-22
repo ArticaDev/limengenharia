@@ -42,7 +42,7 @@ const SectionAbout = (props) => {
           <div className="col">
             <h3 className="text-white"style={{fontWeight: "500"}}>
               <br />A&nbsp;<strong>LIM ENGENHARIA</strong>&nbsp;é a consolidação
-              de um sonho alimentado pelos irmãos:&nbsp;<strong
+              de um sonho alimentado pelos irmãos&nbsp;<strong
                 >Leticia Lima Madia</strong
               >, atual diretora e engenheira civil, e por&nbsp;<strong
                 >Matheus Lima</strong

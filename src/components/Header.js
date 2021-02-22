@@ -8,12 +8,14 @@ const Header = () => {
     <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
     <li data-target="#carouselExampleIndicators" data-slide-to={1} />
     <li data-target="#carouselExampleIndicators" data-slide-to={2} />
+    <li data-target="#carouselExampleIndicators" data-slide-to={3} />
+    <li data-target="#carouselExampleIndicators" data-slide-to={4} />
   </ol>
   <div className="carousel-inner" role="listbox">
-    <div className="carousel-item active" style={{backgroundImage: 'url("./assets/img/image1.png")'}}>
+    <div className="carousel-item active" style={{backgroundImage: 'url("./assets/img/image5.png")'}}>
       <div className="carousel-caption d-block">
         <a className="js-scroll-trigger" href="#services">
-        <h2 className="display-4">Vistorias de imóveis</h2></a>
+        <h2 className="display-4">Acompanhamentos e vistorias de imóveis</h2></a>
         </div>
     </div>
     <div className="carousel-item" style={{backgroundImage: 'url("./assets/img/image2.png")'}}>
@@ -23,7 +25,17 @@ const Header = () => {
     </div>
     <div className="carousel-item" style={{backgroundImage: 'url("./assets/img/image3.png")'}}>
       <div className="carousel-caption d-block">
-        <a className="js-scroll-trigger" href="#services"><h2 className="display-4">Projetos e avaliações de Imóveis</h2></a>
+        <a className="js-scroll-trigger" href="#services"><h2 className="display-4">Avaliações de Imóveis</h2></a>
+      </div>
+    </div>
+    <div className="carousel-item" style={{backgroundImage: 'url("./assets/img/image4.png")'}}>
+      <div className="carousel-caption d-block">
+        <a className="js-scroll-trigger" href="#services"><h2 className="display-4">Projetos</h2></a>
+      </div>
+    </div>
+    <div className="carousel-item" style={{backgroundImage: 'url("./assets/img/image1.png")'}}>
+      <div className="carousel-caption d-block">
+        <a className="js-scroll-trigger" href="#services"><h2 className="display-4">Consultoria para financiamento bancário</h2></a>
       </div>
     </div>
   </div>

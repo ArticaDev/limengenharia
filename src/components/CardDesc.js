@@ -28,7 +28,9 @@ const CardDesc = (props) => {
 
     )}
   else{
-    return( <div className="card bg-dark-blue">
+    return( 
+    <div className="col-xl-4 col-md-6 col-sm-8 mt-5">
+    <div className="card bg-dark-blue" style={{minHeight: "408px"}}>
     <div className="card-body bg-dark-blue">
       <div className="row">
         <div className="col" style={{marginBottom: '0px'}}>
@@ -54,7 +56,9 @@ const CardDesc = (props) => {
         </div>
       </div>
     </div>
-  </div>)
+  </div>
+  </div>
+  )
   }
 }
 

@@ -46,12 +46,12 @@ const SectionContact = (props) => {
                 </div>
                 <div className="control-group">
                   <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                    <label>Telefone</label><input name="phone" className="form-control" type="tel" id="phone" required placeholder="Telefone" /><small className="form-text text-danger help-block" />
+                    <label>Telefone</label><input name="phone" className="form-control" type="tel" id="phone" required placeholder="Telefone com DDD" /><small className="form-text text-danger help-block" />
                   </div>
                 </div>
                 <div className="control-group">
                   <div className="form-group floating-label-form-group controls mb-5 pb-2">
-                    <textarea name="message" className="form-control" id="message" required placeholder="Digite aqui o que você precisa, sua ideia ou algo onde possamos atuar!" rows={5} defaultValue={""} /><small className="form-text text-danger help-block" />
+                    <textarea name="message" className="form-control" id="message" required placeholder="Escreva aqui o que necessita, sua ideia ou no que podemos auxiliar." rows={5} defaultValue={""} /><small className="form-text text-danger help-block" />
                   </div>
                 </div>
                 <div className="form-group d-flex justify-content-center">
