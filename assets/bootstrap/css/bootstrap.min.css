@@ -6033,7 +6033,7 @@ a.close.disabled {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 40%;
+  bottom: 43%;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
@@ -6041,6 +6041,12 @@ a.close.disabled {
   color: #fff;
   text-align: center;
 }
+@media (max-width: 576px) {
+  .carousel-caption {
+    bottom: 40%;
+  }
+}
+
 @-webkit-keyframes b {
   to {
     -webkit-transform: rotate(1turn);
