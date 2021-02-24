@@ -50,9 +50,9 @@ const CardDesc = (props) => {
       </div>
       <div className="row" style={{marginTop: '15px'}}>
         <div className="col">
-          <p className="text-white text-center">
+          <h5 style={{fontWeight:"500"}} className="text-white text-center">
             {props.desc}
-          </p>
+          </h5>
         </div>
       </div>
     </div>

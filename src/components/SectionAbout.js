@@ -41,18 +41,18 @@ const SectionAbout = (props) => {
         <div className="row">
           <div className="col">
             <h3 className="text-white"style={{fontWeight: "500"}}>
-              <br />A&nbsp;<strong>LIM ENGENHARIA</strong>&nbsp;é a consolidação
-              de um sonho alimentado pelos irmãos&nbsp;<strong
+              <br />A <strong>LIM ENGENHARIA</strong> é a consolidação
+              de um sonho alimentado pelos irmãos <strong
                 >Leticia Lima Madia</strong
-              >, atual diretora e engenheira civil, e por&nbsp;<strong
+              >, atual diretora e engenheira civil, e por <strong
                 >Matheus Lima</strong
               >, o também sócio e engenheiro. Atuamos desde
-              a&nbsp;<strong>execução</strong>, passando
-              por&nbsp;<strong>acompanhamento&nbsp;</strong>de obras
-              e&nbsp;<strong>avaliações&nbsp;</strong>das mais diversas
-              finalidades, tendo a&nbsp;Caixa Econômica&nbsp;como o marco dessa
+              a <strong>execução</strong>, passando
+              por <strong>acompanhamento </strong>de obras
+              e <strong>avaliações </strong>das mais diversas
+              finalidades, tendo a Caixa Econômica como o marco dessa
               carreira
-              de&nbsp;<strong>sucesso&nbsp;</strong>e&nbsp;<strong>fidelização&nbsp;</strong>dos
+              de <strong>sucesso </strong>e <strong>fidelização </strong>dos
               clientes e parceiros.<br /><br />
             </h3>
           </div>

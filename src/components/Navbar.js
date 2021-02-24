@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
 <nav className="navbar navbar-light navbar-expand-lg fixed-top shadow text-uppercase bg-blue" id="mainNav">
   <div className="container">
-    <a className="navbar-brand js-scroll-trigger" href="#page-top"><img alt="navbar" src="assets/img/LIM%20Engenharia%20Versão%20final-01%201.svg" style={{width: '10vh', marginLeft: 15}} /></a><button data-toggle="collapse" data-target="#navbarResponsive" className="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style={{background: 'rgb(207, 100, 40) !important'}}>
+    <a className="navbar-brand js-scroll-trigger" href="#page-top"><img alt="navbar" src="assets/img/LIM%20Engenharia%20Versão%20final-01%201.svg" style={{width: '100px', marginLeft: 15}} /></a><button data-toggle="collapse" data-target="#navbarResponsive" className="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style={{background: 'rgb(207, 100, 40) !important'}}>
       <i className="fa fa-bars" />
     </button>
     <div className="collapse navbar-collapse" id="navbarResponsive">

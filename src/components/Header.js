@@ -35,7 +35,7 @@ const Header = () => {
     </div>
     <div className="carousel-item" style={{backgroundImage: 'url("./assets/img/image1.png")'}}>
       <div className="carousel-caption d-block">
-        <a className="js-scroll-trigger" href="#services"><h2 className="display-4">Consultoria para financiar</h2></a>
+        <a className="js-scroll-trigger" href="#services"><h2 style={{fontSize:"3.2rem"}} className="display-4">Consultoria para financiamento</h2></a>
       </div>
     </div>
   </div>
