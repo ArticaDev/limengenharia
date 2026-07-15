@@ -1,3 +1,9 @@
+import * as Sentry from "@sentry/react";
+
+Sentry.init({
+  dsn: "https://261c22eb91504f3cb42b5330ab31a28f@bugs.articadev.com/5",
+});
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
